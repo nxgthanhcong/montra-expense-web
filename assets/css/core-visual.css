@@ -9,8 +9,8 @@
 
 .app-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 40px;
+  /* grid-template-columns: repeat(4, 20vw); */
+  grid-gap: 40px;
 }
 
 /* ========== SECTIONS ==========  */
@@ -18,13 +18,14 @@
   background-color: var(--base-light-light-100);
   padding: 40px;
   border-radius: 20px;
+  width: 560px;
 }
 
 .secction-title {
   margin-bottom: 40px;
 }
 
-/* ========== COLOR LIST ==========  */
+/* ========== COLOR ==========  */
 .color-list {
 }
 
@@ -32,12 +33,11 @@
   display: grid;
   margin-bottom: 20px;
   column-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 60px auto;
 }
 
 .color-level {
   display: flex;
-  width: 450px;
 }
 
 .color-level__item {
@@ -58,4 +58,35 @@
   flex-grow: 1;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+/* ========== TYPOGRAPHY ==========  */
+
+.section#typography {
+  width: 1440px;
+  border-radius: 40px;
+  background: #fff;
+}
+
+.typography-inter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 100px;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.typography-inter__content {
+  word-break: break-word;
+}
+
+.typography-table {
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  grid-gap: 20px;
+}
+
+.typography-table__header {
+  color: #91919f;
 }
