@@ -101,3 +101,19 @@
   background: var(--base-light-light-60, #f1f1fa);
   margin-bottom: 400px;
 }
+
+/* ========== ILLUSTRATION ==========  */
+
+.illustration-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.illustration-item {
+  width: 312px;
+  height: 312px;
+}
+
+.illustration-item img {
+  width: 100%;
+}
