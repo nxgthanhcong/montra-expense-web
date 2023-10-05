@@ -1,12 +1,15 @@
 /* 
 keywords:
+FONT
 COLOR VARIABLES
-
+TYPOGRAPHY
 */
 
-:root {
-  /* ========== COLOR VARIABLES ========== */
+/* ========== FONT ========== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
 
+/* ========== COLOR VARIABLES ========== */
+:root {
   /* Dark */
   --ink-lightest: #7a7e80;
   --ink-lighter: #464a4d;
@@ -54,4 +57,90 @@ COLOR VARIABLES
   --blue-blue-60: #57a5ff;
   --blue-blue-80: #248aff;
   --blue-blue-100: #07f;
+}
+
+body {
+  font-family: "Inter";
+}
+
+/* ========== TYPOGRAPHY ========== */
+.typo-title-x {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 125% */
+}
+
+.typo-title-1 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.typo-title-2 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typo-title-3 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typo-regular-1 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.typo-regular-2 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typo-regular-3 {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+
+.typo-small {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 123.077% */
+}
+
+.typo-tiny {
+  color: var(--base-dark-dark-75, #161719);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
 }
