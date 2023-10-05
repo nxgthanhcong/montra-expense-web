@@ -1,0 +1,57 @@
+/* 
+keywords:
+COLOR VARIABLES
+
+*/
+
+:root {
+  /* ========== COLOR VARIABLES ========== */
+
+  /* Dark */
+  --ink-lightest: #7a7e80;
+  --ink-lighter: #464a4d;
+  --base-dark-dark-75: #161719;
+  --base-dark-dark-100: #0d0e0f;
+
+  /* Light */
+  --sky-light: #e3e5e5;
+  --sky-lighter: #f2f4f5;
+  --sky-lightest: #f7f9fa;
+  --sky-light-80: #fbfbfb;
+  --base-light-light-100: #fff;
+
+  /* Violet */
+  --violet-violet-20: #eee5ff;
+  --violet-violet-40: #d3bdff;
+  --violet-violet-60: #b18aff;
+  --violet-violet-80: #8f57ff;
+  --violet-violet-100: #7f3dff;
+
+  /* Red */
+  --red-red-20: #fdd5d7;
+  --red-red-40: #fda2a9;
+  --red-red-60: #fd6f7a;
+  --red-red-80: #fd5662;
+  --red-red-100: #fd3c4a;
+
+  /* Green */
+  --green-green-20: #cffaea;
+  --green-green-40: #93eaca;
+  --green-green-60: #65d1aa;
+  --green-green-80: #2ab784;
+  --green-green-100: #00a86b;
+
+  /* Yellow */
+  --yellow-yellow-20: #fceed4;
+  --yellow-yellow-40: #fcdda1;
+  --yellow-yellow-60: #fccc6f;
+  --yellow-yellow-80: #fcbb3c;
+  --yellow-yellow-100: #fcac12;
+
+  /* Blue */
+  --blue-blue-20: #bddcff;
+  --blue-blue-40: #8ac0ff;
+  --blue-blue-60: #57a5ff;
+  --blue-blue-80: #248aff;
+  --blue-blue-100: #07f;
+}
