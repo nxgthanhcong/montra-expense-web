@@ -59,8 +59,19 @@ TYPOGRAPHY
   --blue-blue-100: #07f;
 }
 
+/* ========== RESET CSS ==========  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter";
+}
+
+ul {
+  list-style: none;
 }
 
 /* ========== TYPOGRAPHY ========== */
@@ -143,4 +154,9 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 12px; /* 100% */
+}
+
+/* ========== LAYOUT CSS ========== */
+.grid {
+  display: grid;
 }
