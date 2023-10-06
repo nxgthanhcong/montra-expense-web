@@ -77,7 +77,7 @@
 .typography-table {
   display: grid;
   grid-template-columns: 20% 30% 50%;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 
 .typography-table__header {
@@ -103,7 +103,6 @@
 }
 
 /* ========== ILLUSTRATION ==========  */
-
 .illustration-list {
   display: flex;
   flex-wrap: wrap;
@@ -116,4 +115,20 @@
 
 .illustration-item img {
   width: 100%;
+}
+
+/* ========== SWIPPERJS ========== */
+.app-slider {
+  overflow: hidden;
+  background-color: #fff;
+  width: 60vw;
+  margin: 10vh auto;
+  border-radius: 20px;
+}
+
+/* ========== SWIPPERJS ========== */
+.clickable-color,
+.clickable-typo,
+.clickable-icon {
+  cursor: pointer;
 }
