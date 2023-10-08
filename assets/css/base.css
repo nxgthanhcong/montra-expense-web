@@ -160,3 +160,14 @@ ul {
 .grid {
   display: grid;
 }
+
+/* ========== BLOCK32 ========== */
+.w32 {
+  display: block;
+  width: 32px;
+}
+
+.h32 {
+  display: block;
+  height: 32px;
+}
