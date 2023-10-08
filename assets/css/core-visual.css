@@ -121,12 +121,16 @@
 .app-slider {
   overflow: hidden;
   background-color: #fff;
-  width: 60vw;
+  /* width: 60vw; */
   margin: 10vh auto;
   border-radius: 20px;
 }
 
-/* ========== SWIPPERJS ========== */
+.swiper-slide {
+  margin-bottom: 20px;
+}
+
+/* ========== CLICKABLE ========== */
 .clickable-color,
 .clickable-typo,
 .clickable-icon {
